@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantis</title>
+</head>
+<body>
+
+<pre id="output"></pre>
+
+<script>
+function hatiRomantis(inisial) {
+    return `
+   ***     ***
+  ******* *******
+*****************
+*****************
+ ****************
+  ******** ${inisial} ********
+   *************
+    ***********
+     *********
+      *******
+       *****
+`;
+}
+
+function puisi(inisial) {
+    return `
+Kulepaskan kata pada malam yang tenang,
+Setiap detik menulis namamu di angin.
+Dalam setiap bisik dan harapku, ada satu huruf:
+→ ${inisial} ← yang menuntun pulang rinduku.
+
+Selalu untukmu,
+(ubah huruf jika ingin mengganti inisial seseorang 💞)
+`;
+}
+
+let inisial = "J"; // Ganti huruf di sini
+let hasil = hatiRomantis(inisial) + puisi(inisial);
+
+document.getEle
